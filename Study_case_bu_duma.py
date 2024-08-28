@@ -216,4 +216,17 @@ elif int(lembur) > 6:
     print('Jam lembur anda : ' + str(lembur) + ' jam')
     print('anda mendapat kan gaji lembur sebesar Rp. 300.000')
 
+# menghitung ketinggian air
+
+ketinggian_air = float(input('Masukkan ketinggian air: '))
+
+if ketinggian_air <= 500:
+    print('STATUS AMAN')
+elif 500.1 <= ketinggian_air <= 600.0:
+    print('STATUS WASPADA')
+elif 600.1 <= ketinggian_air <= 650.0:
+    print('STATUS SIAGA 2')
+else:
+    print('STATUS SIAGA 1')
+
 
